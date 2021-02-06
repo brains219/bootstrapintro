@@ -10,7 +10,8 @@ $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
 body {
-    font-family: $body-font;
+    font-family: $body-font; 
+}
 
 h1, h2, h3 {
     font-family: $header-font;
@@ -74,16 +75,15 @@ header {
     bottom: 0;
     z-index: 100;
 }   
-    }
 
-#loginButton {
+#loginModal {
     .modal-header {
         background-color: $color-mid;
         color: white;
     }
 }
 
-#reserveButton {
+#reserveModal {
     .modal-header {
         background-color: $color-teal;
         color: white;
